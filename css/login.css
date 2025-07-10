@@ -1,0 +1,26 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif; /* fonte */
+background: linear-gradient(#143f6b); /* cor de fundo */
+display:flex; /*flex container*/
+justify-content: center;/*conteudo centralizado horizontalmente*/
+align-items: center; /* conteudo centralizado verticalmente*/
+}
+
+.loginContainer{
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+button {
+    
+  background-color: #184e77; /* Define a cor de fundo do botão como azul escuro (#184e77). */
+  color: white; /* Define a cor do texto do botão como branca. */
+  border: none; /* Remove qualquer borda padrão do botão. */
+  padding: 10px; /* Adiciona espaçamento interno de 10px no botão. */
+  border-radius: 5px; /* Arredonda os cantos do botão em 4px. */
+  cursor: pointer; /* Muda o cursor para pointer (mãozinha) ao passar sobre o botão. */
+}
+/* mudar cor do botão ao passar o mouse em cima*/
