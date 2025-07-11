@@ -1,13 +1,24 @@
 body {
-<<<<<<< HEAD
+
   margin: 0; /* Remove as margens padrão do body (afastações externas). */
   padding: 0; /* Remove os espaçamentos internos padrão do body. */
   font-family: Arial, sans-serif; /* Define a fonte principal como Arial e, se não houver, usa qualquer sans-serif. */
   background: linear-gradient(#184e77, #1e6091); /* Define um fundo com degradê do azul escuro (#184e77) para um azul médio (#1e6091). */
+  background-image: url("mtb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 100px;
+    /* Define a altura como 100% da viewport */
+    
+    margin: 0;
+    /* Remove as margens padrão */
+    padding: 0;
+    /* Remove o preenchimento padrão */
   display: flex; /* Define o body como flex container, permitindo centralizar o conteúdo filho. */
   justify-content: center; /* Centraliza o conteúdo horizontalmente na tela. */
   align-items: center; /* Centraliza o conteúdo verticalmente na tela. */
   height: 100vh; /* Define altura do body como 100% da altura da janela do navegador (viewport). */
+
 }
 
 .loginContainer {
@@ -17,6 +28,20 @@ body {
   width: 400px; /* Define largura fixa de 400px para o container. */
   box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Adiciona sombra ao redor do container (x=0, y=0, blur=10px, cor preta com 30% de opacidade). */
   text-align: center; /* Centraliza o texto dentro do container. */
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;  /* fonte */
+  background: linear-gradient(#2b6aa9);  /* cor de fundo */
+  display: flex;  /*flex container*/
+  justify-content: center;  /*conteudo centralizado horizontalmente*/
+  align-items: center;  /* conteudo centralizado verticalmente*/
+}
+
+button:hover {
+  background-color: #d8e7f3;   /* Muda a cor de fundo do botão ao passar o mouse para azul médio (#1e6091). */
 }
 
 h2 {
@@ -55,38 +80,7 @@ input[type="password"] {
   text-decoration: none; /* Remove o sublinhado padrão dos links. */
 }
 
-button {
-=======
-margin: 0;
-padding: 0;
-font-family: Arial, sans-serif; /* fonte */
-background: linear-gradient(#143f6b); /* cor de fundo */
-display:flex; /*flex container*/
-justify-content: center;/*conteudo centralizado horizontalmente*/
-align-items: center; /* conteudo centralizado verticalmente*/
-}
 
-.loginContainer{
-    background-color: white;
-    padding: 30px;
-    width: 400px;
-    text-align: center;
-}
-button {
-    
->>>>>>> 18f9527e29b21ae18df5b428faf436d8746fa08f
-  background-color: #184e77; /* Define a cor de fundo do botão como azul escuro (#184e77). */
-  color: white; /* Define a cor do texto do botão como branca. */
-  border: none; /* Remove qualquer borda padrão do botão. */
-  padding: 10px; /* Adiciona espaçamento interno de 10px no botão. */
-<<<<<<< HEAD
-  border-radius: 4px; /* Arredonda os cantos do botão em 4px. */
-  cursor: pointer; /* Muda o cursor para pointer (mãozinha) ao passar sobre o botão. */
-}
-
-button:hover {
-  background-color: #1e6091; /* Muda a cor de fundo do botão ao passar o mouse para azul médio (#1e6091). */
-}
 
 .logo-senai {
   margin-top: 20px; /* Adiciona margem superior de 20px acima do logo do SENAI. */
@@ -94,23 +88,3 @@ button:hover {
   height: 50px; /* Define altura do logo como 50px. */
 }
 
-
-
-body {
-  background-color: #000000;
-}
-h1 {
-  color: orange;
-  text-align: center;
-}
-p {
-  font-family: "Arial";
-  font-size: 20px;
-}
-
-=======
-  border-radius: 5px; /* Arredonda os cantos do botão em 4px. */
-  cursor: pointer; /* Muda o cursor para pointer (mãozinha) ao passar sobre o botão. */
-}
-/* mudar cor do botão ao passar o mouse em cima*/
->>>>>>> 18f9527e29b21ae18df5b428faf436d8746fa08f
