@@ -1,0 +1,29 @@
+PROGRAMAÇÃO DE APP
+
+Roteiro de estudos
+ 1. HTML
+
+O que é HTML e sua função na web
+Estrutura básica de um documento HTML (<!DOCTYPE html>, <html>, <head>, <body>)
+Tags principais e suas funções (ex: <body>, <head>, <script>, <button>)
+Diferença entre id e class, div
+Botões em HTML: como criar um botão (<button>Calcular</button>) e sua função de interação
+
+2. CSS
+
+Para que serve o CSS
+Como aplicar cor de fundo ou imagem de fundo
+Seletores: id (#), class (.), tag diretamente
+Ordem de prioridade de seletores (ex: id > class > tag)
+Interpretação de trechos de CSS (ex: text-align, color)
+Comentários em CSS
+Boa prática: separação de arquivos CSS do HTML
+
+3. JavaScript
+
+O que é JavaScript e sua função 
+Diferença entre var, let, const (estude let e const como preferidos atualmente)
+Comentários em JavaScript 
+Alert e prompt
+Botões com função JavaScript:
+Como ligar um botão a uma função
