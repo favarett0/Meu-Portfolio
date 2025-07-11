@@ -1,0 +1,89 @@
+body {
+  margin: 0; /* Remove as margens padrão do body (afastações externas). */
+  padding: 0; /* Remove os espaçamentos internos padrão do body. */
+  font-family: Arial, sans-serif; /* Define a fonte principal como Arial e, se não houver, usa qualquer sans-serif. */
+  background: linear-gradient(#184e77, #1e6091); /* Define um fundo com degradê do azul escuro (#184e77) para um azul médio (#1e6091). */
+  display: flex; /* Define o body como flex container, permitindo centralizar o conteúdo filho. */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente na tela. */
+  align-items: center; /* Centraliza o conteúdo verticalmente na tela. */
+  height: 100vh; /* Define altura do body como 100% da altura da janela do navegador (viewport). */
+}
+
+.loginContainer {
+  background: white; /* Define o fundo do container de login como branco. */
+  padding: 30px; /* Adiciona espaçamento interno de 30px em todos os lados. */
+  border-radius: 8px; /* Arredonda os cantos do container com raio de 8px. */
+  width: 400px; /* Define largura fixa de 400px para o container. */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Adiciona sombra ao redor do container (x=0, y=0, blur=10px, cor preta com 30% de opacidade). */
+  text-align: center; /* Centraliza o texto dentro do container. */
+}
+
+h2 {
+  margin-bottom: 20px; /* Adiciona margem inferior de 20px ao título, separando-o dos elementos abaixo. */
+  color: #184e77; /* Define a cor do texto do título como azul escuro (#184e77). */
+}
+
+form {
+  display: flex; /* Define o formulário como flex container. */
+  flex-direction: column; /* Organiza os elementos filhos em coluna (um abaixo do outro). */
+}
+
+label {
+  text-align: left; /* Alinha o texto dos labels à esquerda. */
+  margin: 5px 0 2px 0; /* Define margem de 5px em cima, 0 nas laterais e 2px embaixo. */
+  font-size: 14px; /* Define tamanho de fonte de 14px para os labels. */
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px; /* Adiciona espaçamento interno de 10px em todos os lados do input. */
+  margin-bottom: 10px; /* Adiciona espaçamento inferior de 10px, separando cada input do próximo elemento. */
+  border: 1px solid #ccc; /* Define borda de 1px cinza clara (#ccc). */
+  border-radius: 4px; /* Arredonda os cantos dos inputs em 4px. */
+}
+
+.links {
+  display: flex; /* Define a div com as links como flex container. */
+  justify-content: space-between; /* Distribui os links com espaço igual entre eles, deixando um em cada lado. */
+  font-size: 12px; /* Define tamanho de fonte de 12px para os links. */
+  margin-bottom: 15px; /* Adiciona margem inferior de 15px, separando dos próximos elementos. */
+}
+
+.links a {
+  color: #1e6091; /* Define a cor dos links como azul médio (#1e6091). */
+  text-decoration: none; /* Remove o sublinhado padrão dos links. */
+}
+
+button {
+  background-color: #184e77; /* Define a cor de fundo do botão como azul escuro (#184e77). */
+  color: white; /* Define a cor do texto do botão como branca. */
+  border: none; /* Remove qualquer borda padrão do botão. */
+  padding: 10px; /* Adiciona espaçamento interno de 10px no botão. */
+  border-radius: 4px; /* Arredonda os cantos do botão em 4px. */
+  cursor: pointer; /* Muda o cursor para pointer (mãozinha) ao passar sobre o botão. */
+}
+
+button:hover {
+  background-color: #1e6091; /* Muda a cor de fundo do botão ao passar o mouse para azul médio (#1e6091). */
+}
+
+.logo-senai {
+  margin-top: 20px; /* Adiciona margem superior de 20px acima do logo do SENAI. */
+  width: 160px; /* Define largura do logo como 160px. */
+  height: 50px; /* Define altura do logo como 50px. */
+}
+
+
+
+body {
+  background-color: #000000;
+}
+h1 {
+  color: orange;
+  text-align: center;
+}
+p {
+  font-family: "Arial";
+  font-size: 20px;
+}
+
