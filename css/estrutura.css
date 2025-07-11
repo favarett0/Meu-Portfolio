@@ -1,0 +1,63 @@
+body, ul, li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    a{
+        text-decoration: none;
+    }
+.header {
+background: rgba(63, 5, 117, 0.877);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;/* espçao entre o items*/
+padding: 20px;
+align-items: center;
+
+
+}
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+ 
+margin-left: 10px;
+}
+
+.menu li a {
+    display: inline;
+    padding: 10px;
+    color:aliceblue;
+   
+}
+/* FlexBox*/
+img {
+    width: 250px; /* tamanho desejado */
+    height: 200px; 
+    object-fit: cover; /* corta proporcionalmente para preencher */
+    display: block;
+    transition: opacity 0.3s ease-in-out; /* suave de opacidade */
+}
+
+img:hover {
+  opacity: 0.7; /*efeito opacidade ao passar o mouse */
+}
+   
+}
+h1 {
+text-align: center;
+margin-top: 100px;
+}
+
+.flex {
+display: flex;
+flex-wrap: wrap;/*sem quebra de linha, diminui o tamanho se mantendo na mesma linha*/
+}
+.flex >div {
+flex:1 1 200px; 
+
+}
